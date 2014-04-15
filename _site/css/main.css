@@ -17,6 +17,8 @@ body {
   color: #999;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,8 +61,15 @@ a:visited { color: #77c; text-decoration: none; }
 .site {
   font-size: 100%;
   text-align: justify;
-  width: 42em;
+  width:100%;
   margin: 3em auto 2em;
+}
+
+/* screens larger than 480px */
+@media only screen and (min-width: 481px) {
+  .site {
+    width: 42em;
+  }
 }
 
 .header {
