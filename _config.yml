@@ -1,0 +1,4 @@
+name: zoblog
+markdown: redcarpet
+pygments: true
+baseurl: /blog

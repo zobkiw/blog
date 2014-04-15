@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<span class="metasmaller">&laquo; <a href="{{ site.baseurl }}/">home</a></span>
+<br /><br />
+
+<span class="metalarger">{{ page.title }}</span> 
+<span class="metasmaller metalighter"> &nbsp;/&nbsp; {{ page.date | date_to_string }}</span>
+<span class="metasmaller metalighter"> &nbsp;/&nbsp; {{ page.tags | array_to_sentence_string }}</span>
+
+<div class="post">
+{{ content }}
+</div>
+
+<br />
+
+<span class="metasmaller">&laquo; <a href="{{ site.baseurl }}/">home</a></span>

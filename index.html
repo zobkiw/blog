@@ -1,0 +1,17 @@
+---
+layout: default
+title: zoblog
+---
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+		<br />
+      	<span class="metasmaller">{{ post.date | date_to_string }} &nbsp;/&nbsp; </span>
+        <span class="meta"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
+        <div style="margin-left:20px;"><span class="excerpt">{{ post.excerpt }}</span></div>
+     </li>
+    {% endfor %}
+  </ul>
+</div>
