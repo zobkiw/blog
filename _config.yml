@@ -1,4 +1,7 @@
 name: zoblog
+description: notes to anyone who is interested
+url: http://zobkiw.github.io/blog/
+baseurl: /blog
+
 markdown: redcarpet
 pygments: true
-baseurl: /blog
