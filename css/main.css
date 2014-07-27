@@ -28,9 +28,9 @@ h1, h2, h3, h4, h5, h6 {
 
 p { margin: 1em 0; }
 
-a         { color: #77c; text-decoration: none; }
-a:hover   { color: #77c; text-decoration: none; }
-a:visited { color: #77c; text-decoration: none; }
+a         { color: #333; text-decoration: none; }
+a:hover   { color: #333; text-decoration: none; }
+a:visited { color: #333; text-decoration: none; }
 
 /*****************************************************************************/
 /*
@@ -123,7 +123,7 @@ a:visited { color: #77c; text-decoration: none; }
 
 .excerpt {
   color: #aaa;
-  font-size: 80%;
+  font-size: 90%;
   line-height: 1.25em;
 }
 
