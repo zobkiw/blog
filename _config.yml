@@ -4,7 +4,7 @@ url: http://zobkiw.github.io/blog
 baseurl: /blog
 
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 exclude: ['README.md'] 
 
